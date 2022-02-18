@@ -1,0 +1,154 @@
+body{
+    margin: auto;
+    padding: 0;
+    background: #fafafa;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.instagram-wrapper{
+   display: flex;
+   margin: 32px auto;
+   width: 100%;
+   justify-content: center; 
+    
+}
+
+
+.instagram-phone{
+    width: 420px;
+    background-image: url("img/celular.png");
+    height: 600px;
+}
+
+.group{
+    margin-bottom: 15px;
+    width: 350px;
+    background:#fff;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+}
+
+
+.msg{
+    color: #8e8e8e;
+    text-align: center;
+}
+
+.abs{
+    
+    position: relative;
+    width: 350px;
+    height: 50px;
+    left: 150px;
+}
+
+.bk{
+    position: absolute;
+    top: 100px;
+    
+
+}
+.instagram-continue{
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 90px;
+    
+    
+    
+}
+
+.instagram-logo{
+    margin: 15px 75px 15px 70px;
+
+}
+
+.profile-photo{
+    width: 50px;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
+.profile-photo img{
+    width: 35px;
+    border-radius: 50%;
+    
+}
+
+
+.photo-texto{
+    display: flex;
+    border-top: 1px solid #efefef;
+    padding-top: 16px;
+}
+
+.instagram-login{
+    height: 20px;
+    margin-top: 10px;
+    width: 180px;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.btn{
+    background: #0095f6;
+    border: 1px solid transparent;
+    color: #fff;
+    border-radius: 4px;
+    display: block;
+    width: auto;
+    padding: 0px;
+    height: 30px;
+    width: 60px;
+    font-weight: bold;
+    
+}
+
+#group-links{
+    padding: 20px;
+    text-align: center;
+ }
+
+ .link-conta{
+     color: #0095f6;
+     font-weight: bold;
+     font-size: 14px;
+ }
+ 
+
+
+
+ .app-download img{
+    height: 40px;
+    width: 136px;
+ }
+
+ .get-the-app{
+     display: flex;
+    flex-direction: column;
+ }
+
+p.get-app{
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.download{
+    display: flex;
+    margin: 10px 55px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .instagram-phone {
+      display: none;
+    }
+  }
